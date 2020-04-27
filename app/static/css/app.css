@@ -1,7 +1,24 @@
+:root {
+    --logoColour: #41B883;
+}
+
+.bg-logoColour {
+    background-color: var(--logoColour);
+}
+
+.card {
+    border-top: 3px solid var(--logoColour);
+    /* white-space: initial; */
+    overflow: hidden;
+    text-overflow: clip;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 body {
     padding-top: 5rem;
 }
 
-footer  {
+footer {
     padding-top: 20px;
 }
